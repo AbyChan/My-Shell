@@ -1,0 +1,10 @@
+#!/bin/sh
+PsUser=`whoami` 
+PsName=$1
+pid=`ps -u $PsUser|grep $PsName|grep -v grep|grep -v vi|grep -v dbx\n |grep -v tail|grep -v start|grep -v stop |sed -n 1p |awk '{print $1}'` 
+echo $pid 
+if [ -z "$pid" ]; then
+    echo 'not exist'
+else
+    echo 'exist'
+fi
