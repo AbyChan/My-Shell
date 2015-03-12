@@ -1,0 +1,2 @@
+#!/bin/sh
+vcgencmd get_config int
