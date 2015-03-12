@@ -1,0 +1,7 @@
+if swapon -s | grep -qs '/dev/sda1'; then
+    echo 'Info: sda1 has been mounted as swap.'
+else
+    echo 'Info: start mount sda1 as swap'
+    swapon /dev/sda1
+fi
+`
