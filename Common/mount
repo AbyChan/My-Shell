@@ -1,0 +1,7 @@
+if grep -qs '/dev/sda2' /proc/mounts; then
+    echo 'sda2 mounted'
+else
+    echo 'start mount sda2'
+    mount /dev/sda2 /home/linaro/USBSPACE
+fi
+

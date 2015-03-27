@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh -D 7070 54fd2dec5973cae3f1000036@crystal-socialmap.rhcloud.com
