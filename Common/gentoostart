@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo mount -U 85133fd7-b8fe-4212-b220-5b8f3ac88cdb /mnt/gentoo
+sudo cp -L /etc/resolv.conf /mnt/gentoo/etc/resolv.conf
+sudo mount -t proc none /mnt/gentoo/proc
+sudo mount -o bind /dev /mnt/gentoo/dev
