@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo umount -l /mnt/gentoo/proc
+sudo umount -l /mnt/gentoo/dev
+sudo umount -l  /mnt/gentoo
