@@ -1,0 +1,2 @@
+#!/bin/bash
+ctags -e -R --exclude=node_modules --exclude=public
