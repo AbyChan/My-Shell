@@ -1,0 +1,2 @@
+#!/bin/bash
+sslocal -s hk02-16.ssv4.net -p 25085 -k qsBVExKyxL4Y
