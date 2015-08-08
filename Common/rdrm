@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+#can Recursively deleting files (based on regex)
+
+find ./ -type f -name $1 -exec rm {} \; 

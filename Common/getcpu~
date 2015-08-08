@@ -1,2 +1,0 @@
-cpu_value = `ps -p $1 -o pcpu | grep -v CPU | awk '{print $1}' | awk - F. '{print $1}'`
-echo $cpu_value
