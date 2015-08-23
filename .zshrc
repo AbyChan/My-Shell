@@ -11,8 +11,8 @@ if ! zgen saved; then
     zgen oh-my-zsh plugins/autojump
     zgen oh-my-zsh plugins/sudo
     zgen oh-my-zsh plugins/command-not-found
+    zgen oh-my-zsh plugins/history-substring-search
     zgen load zsh-users/zsh-syntax-highlighting
-    zgen load /path/to/super-secret-private-plugin
     zgen load tarruda/zsh-autosuggestions
     # completions
     zgen load zsh-users/zsh-completions src
@@ -38,7 +38,7 @@ export TERM=xterm-256color
 alias npm=cnpm
 
 
-export PATH="/home/tyan/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/tyan/USR/node-v0.12.1-linux-x64/bin:/home/tyan/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/tyan/USR/node-v0.12.1-linux-x64/bin:/home/tyan/USR/android-sdk-linux/tools:/home/tyan/USR/android-sdk-linux/platform-tools"
+export PATH="/home/tyan/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/tyan/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/tyan/USR/android-sdk-linux/tools:/home/tyan/USR/android-sdk-linux/platform-tools"
 export ANDROID_HOME="/home/tyan/USR/android-sdk-linux"
 export PATH="/home/tyan/.cask/bin:$PATH"
 
@@ -46,11 +46,11 @@ export PATH="/home/tyan/.cask/bin:$PATH"
 alias emax="emacsclient -t"                      # used to be "emacs -nw"
 alias semac="sudo emacsclient -t"                # used to be "sudo emacs -nw"
 alias emacsc="emacsclient -c -a emacs"           # new - opens the GUI with alternate non-daemon
+alias c-="cd -"
 xset b off
 
 [[ -s /home/tyan/.autojump/etc/profile.d/autojump.sh  ]] && source /home/tyan/.autojump/etc/profile.d/autojump.sh
 
-autoload -U compinit && compinit -u
 
 function exists { which $1 &> /dev/null }
 
@@ -66,3 +66,12 @@ if exists percol; then
     zle -N percol_select_history
     bindkey '^R' percol_select_history
 fi
+
+
+bindkey -M emacs '^P' history-substring-search-up
+bindkey -M emacs '^N' history-substring-search-down
+
+#fix arrow keys that display A B C D on remote shell
+export term=cons25
+export EDITOR=vim
+export PYTHONPATH=.:$PYTHONPATH
