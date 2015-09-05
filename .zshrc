@@ -73,5 +73,6 @@ bindkey -M emacs '^N' history-substring-search-down
 
 #fix arrow keys that display A B C D on remote shell
 export term=cons25
+[[ $TERM == eterm-color  ]] && export TERM=xterm
 export EDITOR=vim
 export PYTHONPATH=.:$PYTHONPATH
