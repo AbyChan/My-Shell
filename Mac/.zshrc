@@ -34,7 +34,7 @@ if ! zgen saved; then
     
 
     # theme
-    zgen oh-my-zsh themes/miloshadzic
+    zgen oh-my-zsh themes/af-magic
 
     zgen load zsh-users/zsh-history-substring-search
     zgen load tarruda/zsh-autosuggestions
@@ -120,3 +120,7 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PYTHONPATH=.:$PYTHONPATH
 
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+cat ~/.welcome
+
+alias v=nvim
