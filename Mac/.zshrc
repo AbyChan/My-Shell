@@ -190,3 +190,6 @@ then
   unfunction preexec
   PS1='$ '
 fi
+
+# fzf ignore and filter
+export FZF_DEFAULT_COMMAND='ag -g ""'
