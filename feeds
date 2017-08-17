@@ -1,0 +1,101 @@
+[
+  {
+    "url": "http://nullprogram.com/feed/"
+  },
+  {
+    "url": "http://stackoverflow.com/feeds/tag?tagnames=emacs&sort=newest"
+  },
+  {
+    "url": "https://www.v2ex.com/feed/tab/tech.xml"
+  },
+  {
+    "url": "http://blog.zhaojie.me/rss"
+  },
+  {
+    "url": "http://emacs-china.org/rss.xml"
+  },
+  {
+    "url": "http://emacsist.com/rss"
+  },
+  {
+    "url": "http://www.infoq.com/cn/feed/"
+  },
+  {
+    "url": "http://www.cyberciti.biz/feed/"
+  },
+  {
+    "url": "https://www.raspberrypi.org/feed/"
+  },
+  {
+    "label": "知乎丁香医生",
+    "url": "https://rss.lilydjwg.me/zhihuzhuanlan/dingxiangyisheng"
+  },
+  {
+    "label": "科学松鼠会",
+    "url": "http://songshuhui.net/feed"
+  },
+  {
+    "label": "科学公园",
+    "url": "http://www.scipark.net/feed/"
+  },
+  {
+    "label": "科学公园",
+    "url": "http://www.scipark.net/feed/"
+  },
+  {
+    "label": "PanSci 泛科學",
+    "url": "http://pansci.asia/feed"
+  },
+  {
+    "label": "Matrix67",
+    "url": "http://www.matrix67.com/blog/feed"
+  },
+  {
+    "label": "战隼的学习探索",
+    "url": "http://www.matrix67.com/blog/feed"
+  },
+  {
+    "label": "知乎",
+    "url": "https://www.zhihu.com/rss"
+  },
+  {
+    "label": "微软亚洲研究院",
+    "url": "http://blog.sina.com.cn/rss/1286528122.xml"
+  },
+  {
+    "label": "小众软件",
+    "url": "http://feeds.appinn.com/appinns/"
+  },
+  {
+    "label": "理想生活实验室",
+    "url": "http://www.toodaylab.com/feed"
+  },
+  {
+    "label": "cinephilia迷影",
+    "url": "http://cinephilia.net/feed"
+  },
+  {
+    "label": "時尚生活雜誌",
+    "url": "http://www.adaymag.com/feed/"
+  },
+  {
+    "label": "经济学人",
+    "url": "http://blog.ecocn.org/feed"
+  },
+  {
+    "label": "褪墨",
+    "url": "http://feed.mifengtd.cn/"
+  },
+  {
+    "label": "阮一峰",
+    "url": "http://www.ruanyifeng.com/blog/atom.xml"
+  },
+  {
+    "label": "知乎日报",
+    "url": "http://zhihurss.miantiao.me/section/id/2"
+  },
+  {
+    "label": "ithelp",
+    "url": "http://ithelp.ithome.com.tw/rss/questions"
+  }
+]
