@@ -1,6 +1,6 @@
 export LANG="zh_CN.UTF-8"
 export LC_CTYPE="zh_CN.UTF-8"
-export PATH=~/.rvm/bin:~/.bin:$PATH # Add RVM to PATH for scripting
+export PATH="~/.rvm/bin:~/.bin:/opt/metasploit-framework/bin/:$PATH" # Add RVM to PATH for scripting
 export ANDROID_HOME="/usr/local/opt/android-sdk"
 
 # Path to your oh-my-zsh installation.
