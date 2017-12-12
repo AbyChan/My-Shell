@@ -1,6 +1,7 @@
 source "/home/tyan/bin/zgen"
 export PATH=/home/linaro/bin:$PATH
 # check if there's no init script
+
 if ! zgen saved; then
     echo "Creating a zgen save"
 
