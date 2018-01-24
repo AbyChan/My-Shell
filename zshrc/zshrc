@@ -215,3 +215,4 @@ compctl -K _ng_completion ng
 ###-end-ng-completion###
 export CONFIG_DIR=~/openvpn
 export FULL_NAME=chencanhao
+HISTTIMEFORMAT="%F %T "
