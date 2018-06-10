@@ -1,8 +1,10 @@
 export LANG="zh_CN.UTF-8"
+
+
 export LC_CTYPE="zh_CN.UTF-8"
-export PATH="~/.rvm/bin:~/.bin:/opt/metasploit-framework/bin/:/Users/chchen/tools/arcanist/bin:$PATH" # Add RVM to PATH for scripting
 export ANDROID_HOME="/Users/chchen/Library/Android/sdk"
 export PATH="$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
+export PATH="/opt/local/bin:~/.rvm/bin:/Users/chchen/.bin:/opt/metasploit-framework/bin/:/Users/chchen/tools/arcanist/bin:/Users/chchen/go/bin:$PATH" # Add RVM to PATH for scripting
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/chchen/.oh-my-zsh
@@ -91,7 +93,6 @@ function chpwd() {
 export NVM_DIR="/Users/chchen/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-eval $(thefuck --alias)
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
@@ -216,3 +217,7 @@ compctl -K _ng_completion ng
 export CONFIG_DIR=~/openvpn
 export FULL_NAME=chencanhao
 HISTTIMEFORMAT="%F %T "
+
+# export GOPATH=$HOME/go:/Users/chchen/workspace/jellyfish
+export GOPATH=/Users/chchen/go
+export PATH="/usr/local/sbin:$PATH"
